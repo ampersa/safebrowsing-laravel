@@ -1,6 +1,6 @@
 <?php
 
-namespace Ampersa\SafeBrowsing\Laravel\Facades;
+namespace Ampersa\SafeBrowsing\Laravel\Facade;
 
 use Illuminate\Support\Facades\Facade;
 

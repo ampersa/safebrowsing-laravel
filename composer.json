@@ -1,6 +1,7 @@
 {
     "name": "ampersa/safebrowsing-laravel",
     "description": "Laravel package wrapper for ampersa/safebrowsing",
+    "version": "0.1",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,7 +10,9 @@
             "email": "contact@ampersa.co.uk"
         }
     ],
-    "require": {},
+    "require": {
+        "ampersa/safebrowsing": "^0.1"
+    },
     "autoload": {
         "psr-4": {
             "Ampersa\\SafeBrowsing\\Laravel\\": "src/"
